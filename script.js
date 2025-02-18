@@ -15,7 +15,7 @@ function toggleObs(id, show) {
   function visualizarLancamentos() {
   // Exemplo: redireciona para uma planilha do Google Sheets.
   // Substitua 'YOUR_SHEET_ID' pelo ID real da sua planilha.
-  window.open('https://docs.google.com/spreadsheets/d/1kR04zS4xJc8fqmIoD_-I9F1bupxkt3vINyqq5oSphfs', '_blank');
+  window.open('https://docs.google.com/spreadsheets/d/e/2PACX-1vSHDh8vc69sO7yFrBHCbKBofvePffivyZkNi-c8LLLSdt8sITnH08MjsT3VoT16osyZNrIx9sUi_gI3/pubhtml?gid=0&single=true', '_blank');
 }
 
 document.getElementById("checklistForm").addEventListener("submit", function(event) {
