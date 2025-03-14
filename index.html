@@ -232,6 +232,15 @@
           <input type="radio" name="organizacao2" value="Pendência" onclick="toggleObs('obs18', true)"> Com Pendência
         </div>
         <textarea id="obs18" class="obs" placeholder="Descreva a pendência..."></textarea>
+
+       <div class="topic" onclick="toggleSection('CFTV')">9. PROTOCOLOS</div>
+       <div id="CFTV" class="section">
+        <label>9.1 Protocolos cargas externa?</label>
+        <div class="options">
+          <input type="radio" name="CFTV1" value="OK" required onclick="toggleObs('obs19', false)"> OK
+          <input type="radio" name="CFTV1" value="Pendência" onclick="toggleObs('obs19', true)"> Com Pendência
+        </div>
+        <textarea id="obs19" class="obs" placeholder="Descreva a pendência..."></textarea>           
         </div>
       
    <button type="submit" class="btn">Enviar Checklist</button>
