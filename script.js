@@ -32,21 +32,22 @@ document.getElementById("checklistForm").addEventListener("submit", function(eve
   let perguntasConfig = [
     { id: "portaria1",    pergunta: "1.1 Caminhões do Recebimento",         obsId: "obs1"  },
     { id: "portaria2",    pergunta: "1.2 Títulos em trânsito",               obsId: "obs2"  },
-    { id: "devolucao1",   pergunta: "2.1 Tickets de devolução fechados",     obsId: "obs3"  },
-    { id: "devolucao2",   pergunta: "2.2 Doca da devolução sem mercadorias",    obsId: "obs4"  },
-    { id: "devolucao3",   pergunta: "2.3 Todas as notas finalizadas",         obsId: "obs5"  },
-    { id: "acerto1",      pergunta: "3.1 Sobra do Recebimento",               obsId: "obs6"  },
-    { id: "acerto2",      pergunta: "3.2 Estoque Zero",                       obsId: "obs7"  },
-    { id: "objetos1",     pergunta: "4.1 Controle de Objetos em docas e ruas", obsId: "obs8"  },
-    { id: "objetos2",     pergunta: "4.2 Objetos no 99",                      obsId: "obs9"  },
-    { id: "tratamento1",  pergunta: "5.1 Pendencias do tratamento de perdas", obsId: "obs10" },
-    { id: "tratamento2",  pergunta: "5.2 Pedidos fora do prazo",              obsId: "obs11" },
-    { id: "tratamento3",  pergunta: "5.3 Organização da sala do tratamento",  obsId: "obs12" },
-    { id: "tratamento4",  pergunta: "5.4 Ação comercial pendente",            obsId: "obs13" },
-    { id: "transito1",    pergunta: "6.1 Notas em status de digitação",       obsId: "obs14" },
-    { id: "auditoria1",   pergunta: "7.1 Relação das equipes de contagem",    obsId: "obs15" },
-    { id: "organizacao1", pergunta: "8.1 Organização da unidade",             obsId: "obs16" },
-    { id: "organizacao2", pergunta: "8.2 Cronograma de inventário",           obsId: "obs17" }
+    { id: "portaria3",    pergunta: "1.3 Pagamento Descarga Financeiro",     obsId: "obs3"  },
+    { id: "devolucao1",   pergunta: "2.1 Tickets de devolução fechados",     obsId: "obs4"  },
+    { id: "devolucao2",   pergunta: "2.2 Doca da devolução sem mercadorias",    obsId: "obs5"  },
+    { id: "devolucao3",   pergunta: "2.3 Todas as notas finalizadas",         obsId: "obs6"  },
+    { id: "acerto1",      pergunta: "3.1 Sobra do Recebimento",               obsId: "obs7"  },
+    { id: "acerto2",      pergunta: "3.2 Estoque Zero",                       obsId: "obs8"  },
+    { id: "objetos1",     pergunta: "4.1 Controle de Objetos em docas e ruas", obsId: "obs9"  },
+    { id: "objetos2",     pergunta: "4.2 Objetos no 99",                      obsId: "obs10"  },
+    { id: "tratamento1",  pergunta: "5.1 Pendencias do tratamento de perdas", obsId: "obs11" },
+    { id: "tratamento2",  pergunta: "5.2 Pedidos fora do prazo",              obsId: "obs12" },
+    { id: "tratamento3",  pergunta: "5.3 Organização da sala do tratamento",  obsId: "obs13" },
+    { id: "tratamento4",  pergunta: "5.4 Ação comercial pendente",            obsId: "obs14" },
+    { id: "transito1",    pergunta: "6.1 Notas em status de digitação",       obsId: "obs15" },
+    { id: "auditoria1",   pergunta: "7.1 Relação das equipes de contagem",    obsId: "obs16" },
+    { id: "organizacao1", pergunta: "8.1 Organização da unidade",             obsId: "obs17" },
+    { id: "organizacao2", pergunta: "8.2 Cronograma de inventário",           obsId: "obs18" }
   ];
   
   // Cria um array de linhas; cada linha contém: data, unidade, bloco, pergunta, resposta e observacao
