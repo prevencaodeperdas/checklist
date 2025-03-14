@@ -47,7 +47,8 @@ document.getElementById("checklistForm").addEventListener("submit", function(eve
     { id: "transito1",    pergunta: "6.1 Notas em status de digitação",       obsId: "obs15" },
     { id: "auditoria1",   pergunta: "7.1 Relação das equipes de contagem",    obsId: "obs16" },
     { id: "organizacao1", pergunta: "8.1 Organização da unidade",             obsId: "obs17" },
-    { id: "organizacao2", pergunta: "8.2 Cronograma de inventário",           obsId: "obs18" }
+    { id: "organizacao2", pergunta: "8.2 Cronograma de inventário",           obsId: "obs18" },
+    { id: "cftv1",        pergunta: "9.1 Protocolo cargas externa",           obsId: "obs19" }
   ];
   
   // Cria um array de linhas; cada linha contém: data, unidade, bloco, pergunta, resposta e observacao
