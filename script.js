@@ -74,6 +74,7 @@ document.getElementById("checklistForm").addEventListener("submit", function(eve
     console.log("Resposta da API:", data);
     alert("Checklist enviado com sucesso!");
     document.body.style.backgroundColor = "#90EE90";
+    document.getElementById("checklistForm").reset(); // Limpa o formulário
   })
   .catch(error => console.error("Erro:", error));
 });
