@@ -105,3 +105,12 @@ label {
   background-color: #0056b3;
   transform: scale(1.1);
 }
+
+.logo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 2cm;
+  height: 1cm;
+  z-index: 999;
+}
