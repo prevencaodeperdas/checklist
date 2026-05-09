@@ -110,7 +110,10 @@ label {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 2cm;
-  height: 1cm;
-  z-index: 999;
+  width: 18vw;
+  max-width: 120px;
+  max-width: 70px;
+  height: auto;
+  object-fit: container;
+  z-index: 1;
 }
